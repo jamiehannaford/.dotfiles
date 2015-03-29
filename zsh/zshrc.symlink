@@ -4,6 +4,8 @@ export PROJECTS=~/Projects
 # shortcut to this dotfiles path is $ZSH
 export ZSH=~/.dotfiles
 
+export PATH=/usr/local/php5/bin:$PATH
+
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
 if [[ -a ~/.localrc ]]
